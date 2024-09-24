@@ -1,0 +1,132 @@
+@font-face {
+    font-family: TWKMono;
+    src: url(TWKEverettMono-Book\ copy.ttf);
+}
+
+@font-face {
+    font-family: TWKMonoIT;
+    src: url(TWKEverettMono-BookItalic\ copy.ttf)
+}
+
+@font-face {
+    font-family: TWKMonoLight;
+    src: url(TWKEverettMono-LightItalic.ttf)
+}
+
+h1 {
+    font-family: TWKMono;
+}
+
+h2{
+    font-family: TWKMonoLight;
+    font-size: small;
+}
+
+h3{
+    font-family: TWKMono;
+    font-size: small;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+   /* Class */ 
+   .fun{
+        color: black
+    }
+
+   .fun:hover{
+       color:rgb(255, 124, 229);
+       font-family: 'Times New Roman', Times, serif;
+   }
+   
+   .navlink{
+    color:black
+   }
+
+   .navlink:hover{
+        color: rgb(255, 124, 229);
+   }
+
+   #morefun{
+       color: rgb(195, 0, 255);
+   }
+   
+   #morefun:hover{
+       color: rgb(255, 255, 255);
+   }
+   
+   .container{
+       columns: 3;
+       
+       /* columns: 3;
+       column-gap: 20px;
+       column-rule-style: solid;
+       font-size: 16px;
+       line-height: 120%;
+       padding-top: 20px;
+       padding-left: 20px;
+       padding-right: 20px; */
+   }
+   
+   /* animation rules */
+   /* @keyframes color {
+       0%   {color: red;}
+       25%  {color: yellow;}
+       50%  {color: blue;}
+       100% {color: green;}
+     }
+   
+     @keyframes scale {
+       0%   {font-size: 16px}
+       50%  {font-size: 36px;}
+       100% {font-size: 16px}
+     }
+   
+     @keyframes twirl {
+       0%   {transform: rotate(0deg)}
+       100% {transform: rotate(359deg)}
+     } */
+   
+     @keyframes color {
+       0%   {color: rgb(255, 130, 201);}
+       25%  {color: rgb(255, 255, 255);}
+       50%  {color: rgb(255, 255, 255);}
+       100% {color: rgb(255, 109, 240);}
+     }
+   
+   .color{
+       animation-name:color;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+   }
+   
+   .color:hover{
+       color: white;
+   }
+   
+   .twirl{
+       /* color: rgb(255, 0, 234);
+       padding-top: 20px;
+       padding-bottom: 20px;
+       font-weight:bold ;
+       cursor: pointer; */
+       /* apply animation rules to class */
+       /* animation-name: twirl;
+       animation-duration: 5s;
+       animation-iteration-count: infinite; */
+   }
+   
+   .scale{
+       /* color: rgb(0, 72, 255);
+       padding-top: 20px;
+       padding-bottom: 20px;
+       font-weight:bold ;
+       cursor: pointer;
+       /* apply animation rules to class */
+       /* animation-name: scale;
+       animation-duration: 5s;
+       animation-iteration-count: infinite; */ 
+   }
+   
