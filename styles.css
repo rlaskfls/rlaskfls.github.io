@@ -33,7 +33,7 @@ p{
 }
    /* Class */ 
    .fun{
-        color: black
+        color: rgb(54, 54, 54)
     }
 
    .fun:hover{
