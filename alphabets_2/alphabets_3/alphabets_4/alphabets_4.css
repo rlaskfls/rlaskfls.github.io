@@ -1,0 +1,39 @@
+@font-face {
+    font-family: TWKMono;
+    src: url(TWKEverettMono-LightItalic\ copy.ttf);
+}
+
+@font-face {
+    font-family: TWKMonoIT;
+    src: url(TWKEverettMono-BookItalic\ copy.ttf)
+}
+
+@font-face {
+    font-family: TWKMonoLight;
+    src: url(TWKEverettMono-LightItalic\ copy.ttf)
+}
+
+/* Class */
+.fun{
+    color: black
+}
+
+.fun:hover{
+   color:rgb(255, 124, 229);
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.navlink{
+    color:black
+   }
+
+.navlink:hover{
+    color: rgb(255, 124, 229);
+ }
+   
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

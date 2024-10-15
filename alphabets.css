@@ -1,0 +1,82 @@
+@font-face {
+    font-family: TWKMono;
+    src: url(TWKEverettMono-Book\ copy.ttf);
+}
+
+@font-face {
+    font-family: TWKMonoIT;
+    src: url(TWKEverettMono-BookItalic\ copy.ttf)
+}
+
+@font-face {
+    font-family: TWKMonoLight;
+    src: url(TWKEverettMono-LightItalic.ttf)
+}
+
+/* Class */
+.fun{
+    color: black
+}
+
+.fun:hover{
+   color:rgb(255, 124, 229);
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.navlink{
+    color:black
+   }
+
+   .navlink:hover{
+        color: rgb(255, 124, 229);
+   }
+   
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.letter-h {
+    position: relative;
+    width: 120px;
+    height: 200px;
+  }
+
+  /* Vertical bars */
+  .vertical-left{
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    background-color: pink;
+    opacity: 70%;
+  }
+
+  .vertical-right{
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    background-color: pink;
+    opacity: 70%;
+    left: 120px;
+  }
+  .vertical-left {
+    left: 0;
+  }
+
+  .vertical-right {
+    right: 0;
+  }
+
+  /* Horizontal bar */
+  .horizontal {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: pink;
+    opacity: 70%;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+  }

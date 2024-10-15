@@ -1,0 +1,126 @@
+@font-face {
+    font-family: TWKMono;
+    src: url(TWKEverettMono-Book\ copy.ttf);
+}
+
+@font-face {
+    font-family: TWKMonoIT;
+    src: url(TWKEverettMono-BookItalic\ copy.ttf)
+}
+
+@font-face {
+    font-family: TWKMonoLight;
+    src: url(TWKEverettMono-LightItalic\ copy.ttf)
+}
+
+/* Class */
+.fun{
+    color: black
+}
+
+.fun:hover{
+   color:rgb(255, 124, 229);
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.navlink{
+    color:black
+   }
+
+.navlink:hover{
+    color: rgb(255, 124, 229);
+ }
+   
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.letter-h {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+
+  /* Left vertical part of H using circles */
+  .left-circle {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    opacity: 70%;
+    opacity: 70%;
+    border-radius: 50%;
+    top: 0;
+    left: 0px;
+  }
+
+  .left-circle-middle{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    border-radius: 50%;
+    top: 65px;
+    left: 0px;
+  }
+
+  .left-circle-bottom {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    opacity: 70%;
+    border-radius: 50%;
+    bottom: 0;
+    left: 0px;
+  }
+
+  /* Right vertical part of H using circles */
+  .right-circle {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    opacity: 70%;
+    border-radius: 50%;
+    top: 0;
+    right: 20px;
+  }
+
+  .right-circle-middle{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    border-radius: 50%;
+    bottom: 0;
+    top: 65px;
+    right: 20px;
+  }
+
+  .right-circle-bottom {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    opacity: 70%;
+    border-radius: 50%;
+    bottom: 0;
+    right: 20px;
+  }
+
+  /* Middle part of H using circles */
+  .middle-circle {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    opacity: 70%;
+    border-radius: 50%;
+    top: 50%;
+    left: 90px;
+    transform: translate(-50%, -50%);
+  }

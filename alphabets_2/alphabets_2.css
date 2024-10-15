@@ -1,0 +1,81 @@
+@font-face {
+    font-family: TWKMono;
+    src: url(TWKEverettMono-Book\ copy.ttf);
+}
+
+@font-face {
+    font-family: TWKMonoIT;
+    src: url(TWKEverettMono-BookItalic\ copy.ttf)
+}
+
+@font-face {
+    font-family: TWKMonoLight;
+    src: url(TWKEverettMono-LightItalic\ copy.ttf)
+}
+
+/* Class */
+.fun{
+    color: black
+}
+
+.fun:hover{
+   color:rgb(255, 124, 229);
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.navlink{
+    color:black
+   }
+
+.navlink:hover{
+    color: rgb(255, 124, 229);
+ }
+   
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.letter-h {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+
+  /* Left vertical triangle */
+  .left-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 200px solid hotpink;
+    left: 0px;
+    top: 0px;
+  }
+
+  /* Right vertical triangle */
+  .right-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 200px solid hotpink;
+    left: 120px;
+    top: 00px;
+  }
+
+  /* Rectangle for horizontal part of H */
+  .rectangle-horizontal{
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    background-color: hotpink;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+  }
+  
