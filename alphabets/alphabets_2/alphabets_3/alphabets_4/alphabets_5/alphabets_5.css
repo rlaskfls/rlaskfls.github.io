@@ -1,0 +1,91 @@
+@font-face {
+    font-family: TWKMono;
+    src: url(TWKEverettMono-LightItalic\ copy.ttf);
+}
+
+@font-face {
+    font-family: TWKMonoIT;
+    src: url(TWKEverettMono-BookItalic\ copy.ttf)
+}
+
+@font-face {
+    font-family: TWKMonoLight;
+    src: url(TWKEverettMono-LightItalic\ copy.ttf)
+}
+
+/* Class */
+.fun{
+    color: black
+}
+
+.fun:hover{
+   color:rgb(255, 124, 229);
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.navlink{
+    color:black
+   }
+
+.navlink:hover{
+    color: rgb(255, 124, 229);
+ }
+   
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.h-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Triangles */
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent #398 transparent;
+}
+
+.triangle.left {
+    border-width: 150px 50px 150px 0;
+    position: relative;
+    margin-bottom: 150px;
+    margin-left: 30px;
+}
+
+.triangle.right {
+    border-width: 150px 0 150px 50px;
+    position: relative;
+    margin-bottom: 150px;
+    margin-right: 30px;
+}
+
+/* Circle */
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-color: #398;
+    border-radius: 50%;
+}

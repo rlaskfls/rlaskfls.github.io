@@ -38,6 +38,15 @@
     box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
 .letter-h {
     position: relative;
     width: 200px;

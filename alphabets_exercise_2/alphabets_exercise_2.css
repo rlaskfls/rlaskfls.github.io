@@ -1,0 +1,98 @@
+@font-face {
+    font-family: TWKMono;
+    src: url(TWKEverettMono-Book\ copy.ttf);
+}
+
+@font-face {
+    font-family: TWKMonoIT;
+    src: url(TWKEverettMono-BookItalic\ copy.ttf)
+}
+
+@font-face {
+    font-family: TWKMonoLight;
+    src: url(/TWKEverettMono-LightItalic.ttf)
+}
+
+/* Class */
+.fun{
+    color: black
+}
+
+.fun:hover{
+   color:rgb(255, 124, 229);
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.navlink{
+    color:black
+   }
+
+.navlink:hover{
+    color: rgb(255, 124, 229);
+ }
+   
+ body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.h-container {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.h-container:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
+/* Vertical Bars */
+.vertical-bar {
+    width: 40px;
+    height: 200px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.5s ease;
+}
+
+.h-container:hover .vertical-bar {
+    background-color: rgb(255, 124, 229);
+}
+
+.h-container:hover .vertical-bar.left {
+    transform: translateY(-10px) rotate(-5deg);
+}
+
+.h-container:hover .vertical-bar.right {
+    transform: translateY(10px) rotate(5deg);
+}
+
+/* Circle */
+.circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.5s ease;
+}
+
+.h-container:hover .circle {
+    background-color: rgb(255, 124, 229);
+    transform: scale(1.2);
+}
